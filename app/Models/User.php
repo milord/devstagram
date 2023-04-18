@@ -70,5 +70,4 @@ class User extends Authenticatable
     {
         return $this->followers->contains( $user->id );
     }
-
 }
